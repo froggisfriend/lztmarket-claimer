@@ -306,7 +306,7 @@ function getExtraOptions() {
 let searchCount = 0;
 async function mainThread() {
     while (true) {
-        await sleep(7143);
+        await sleep(6000);
         searchCount += 1;
         let force_cache = false;
         /*
